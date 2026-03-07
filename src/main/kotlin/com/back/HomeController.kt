@@ -11,7 +11,7 @@ class HomeController(
 ) {
     @GetMapping("/")
     fun main(): String {
-        return "secretWord__ : $secretWord"
+        return "secretWord!_!_!_! : $secretWord"
     }
 
     @GetMapping("/buckets")
